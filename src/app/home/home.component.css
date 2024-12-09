@@ -1,0 +1,49 @@
+.slider1 {
+  background-image: url("./../../assets/images/img_bg_2-DzCs5o-0.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider2 {
+  background-image: url("./../../assets/images/img_bg_1-PzvG2r05.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* General styles for the hero sections */
+.heroSection {
+  height: 100vh;
+  color: #150909;
+  position: relative;
+}
+
+.heroSection .container {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #000;
+    font-family: Playfair Display, Georgia, serif;
+  }
+  button {
+    color: #000;
+    border: 1px solid #000;
+    background: transparent !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 15px !important;
+    font-weight: 400;
+    width: fit-content;
+    border-radius: 0;
+    font-family: Quicksand, Arial, sans-serif;
+  }
+}

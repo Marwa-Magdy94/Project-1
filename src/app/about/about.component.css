@@ -1,0 +1,61 @@
+.position-relative {
+  margin: auto;
+}
+.aboutTitle {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, Arial, sans-serif;
+}
+.aboutHeading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+  font-family: Playfair Display, Georgia, serif;
+}
+.aboutText {
+  margin-bottom: 1.5em;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+.services {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 0 56px -8px #0000002b;
+  border-bottom: 2px solid #2c98f0;
+  padding: 1.5em;
+}
+.services h3 {
+  font-family: Quicksand, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.services .icon2 i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.fa-regular {
+  color: #2c98f0;
+}
+.color-2 .fa-solid {
+  color: #ec5453;
+}
+.color-3 .fa-solid {
+  color: #f9bf3f;
+}
+.color-4 .fa-solid {
+  color: #a84cb8;
+}

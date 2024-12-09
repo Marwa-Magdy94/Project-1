@@ -1,0 +1,88 @@
+.container {
+  margin-left: 80px;
+}
+.skillsTitle {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, Arial, sans-serif;
+}
+.skillsHeading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+  font-family: Playfair Display, Georgia, serif;
+}
+.skillsText {
+  margin-bottom: 1.5em;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+.progressTitle {
+  font-size: 16px;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin: 25px 0 0;
+}
+.progress-bar {
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+  text-align: right;
+  position: relative;
+  overflow: visible;
+  border-radius: 8px;
+  float: left;
+  height: 100%;
+  transition: width 0.6s ease;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+/* Specific Progress Bar Colors */
+.progress-bar-photoshop {
+  background-color: #007bff; /* Blue */
+}
+.progress-bar-html5 {
+  background-color: #ffc107; /* Yellow */
+}
+.progress-bar-wordpress {
+  background-color: #28a745; /* Green */
+}
+.progress-bar-jquery {
+  background-color: #dc3545; /* Red */
+}
+.progress-bar-css3 {
+  background-color: #6f42c1; /* Purple */
+}
+.progress-bar-seo {
+  background-color: #17a2b8; /* Cyan */
+}
